@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: max-content;
+    background: linear-gradient(to right, rgba(8, 112, 231, 0.877),rgb(252, 251, 248));
+}
+.content h1{
+    margin: 40px 0 0 10px;
+    font-family: "Comfortaa",sans-serif;
+    text-decoration: underline 2px solid black;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px #9db8f1d7;
+}
+.content h4{
+    font-family: "Comfortaa",sans-serif;
+    font-weight: 500;
+    margin: 10px 0 30px 40px;
+    width: 40%;
+    height: 60%;
+    display: inline-block;
+}
+button{
+    margin-left: 0;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.bttn:hover{
+    opacity: 0.7;
+}
+td{
+    width: 33.33%;
+    padding: 10px;
+    margin: 5%;
+    
+}
+.cell{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

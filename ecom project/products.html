@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Comfortaa">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Tajawal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="icon" href="images\shopping_1162499.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div class="header">
+        <ul class="header-content">
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="sign_up.html">SIGN UP</a></li>
+        </ul>
+    </div>
+    <div class="nav-bar">
+        <div class="right">
+            <img src="images\Untitled.png" alt="logo image" id="logo">
+        </div>
+        <div class="left">
+            <ul class="list">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+    </div>
+    <div class="banner">
+        <img class="mySlides" src="https://i.pinimg.com/736x/f7/f2/a2/f7f2a27aa9d45b73d6b52a40eabb50ae.jpg">
+        <img class="mySlides" src="https://static.vecteezy.com/system/resources/previews/002/478/302/original/sale-electronics-banner-background-free-vector.jpg">
+        <img class="mySlides" src="https://yuinternational.in/wp-content/uploads/2020/04/6221c42299de6b0b835e8d7c00d56a00.jpg">
+    </div>
+    <div class="box">
+        <table class="products">
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_1.png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple MacBook Pro</h3><p> M1 chip, 16GB RAM, 512GB SSD, macOS, integrated GPU, and advanced thermal management for high performance.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">72,000</span><span class="price">52,000</span><span class="discount">(27% off)</span> </h5><button class="cart" onclick="add_to_car()">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_2.png" alt="product"></div>
+                    <div class="product-piece"><h3>Dell XPS</h3><p> Intel i7 CPU, 32GB RAM, 1TB SSD, NVIDIA GPU, Windows 11, and advanced cooling system for demanding tasks. </p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">70,000</span>61,000<span class="discount">(25% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_3.png" alt="product"></div>
+                    <div class="product-piece"><h3>HP Spectre x360</h3><p>Intel i7 CPU, 16GB RAM, 512GB SSD, Intel Iris Xe graphics, Windows 11, and fast charging capabilities.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">65,000</span>51,000<span class="discount">(15% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_4.png" alt="product"></div>
+                    <div class="product-piece"><h3>Lenovo ThinkPad</h3><p>Intel i7 vPro, 16GB RAM, 1TB SSD, integrated graphics, Windows 11 Pro, and enhanced security features for professionals.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">75,000</span>65,000<span class="discount">(5% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\pngimg.com - laptop_PNG101834.png" alt="product"></div>
+                    <div class="product-piece"><h3>Asus ROG Zephyrus</h3><p>Ryzen 9 CPU, 32GB RAM, 1TB SSD, NVIDIA RTX GPU, Windows 11, and advanced cooling for gaming.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">80,000</span>66,000<span class="discount">(20% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_6.png" alt="product"></div>
+                    <div class="product-piece"><h3>Sony WH-1000XM4</h3><p>Adaptive noise cancelling, 30-hour battery, LDAC support, custom sound profiles, and touch controls for immersive audio experience.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">10,000</span>8,000<span class="discount">(% off)</span></h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_7.png" alt="product"></div>
+                    <div class="product-piece"><h3>Bose QuietComfort 35 II</h3><p>Active noise cancellation, 20-hour battery, Bose AR, built-in Google Assistant/Alexa, and balanced audio with clear highs and deep bass.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">8,000</span>7,000<span class="discount">(% off)</span></h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_8.png" alt="product"></div>
+                    <div class="product-piece"><h3>Sennheiser HD 660 S</h3><p>Open-back design, 150-ohm impedance, detailed soundstage, high-fidelity audio reproduction, and lightweight aluminum voice coils for dynamic sound.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">11,000</span>8,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_9.png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple 65 Pro</h3><p>Active noise cancellation, adaptive EQ, spatial audio, H1 chip, 24-hour battery with case, and seamless integration with Apple devices.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">20,000</span>19,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_10.png" alt="product"></div>
+                    <div class="product-piece"><h3>Beats Studio3</h3><p>Pure Adaptive Noise Canceling (Pure ANC), Apple W1 chip, 22-hour battery, real-time audio calibration, and rich, powerful bass response.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">15,000</span>12,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_11.png" alt="product"></div>
+                    <div class="product-piece"><h3>Jabra Elite 85h</h3><p>Active noise cancellation, 36-hour battery life, SmartSound audio technology, custom EQ settings, and water-resistant design for versatile use.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">12,000</span>11,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngimg.com - iphone_14_PNG42.png" alt="product"></div>
+                    <div class="product-piece"><h3>iPhone 13 Pro</h3><p>A15 Bionic chip, 6GB RAM, ProMotion display, triple-camera system, 1TB storage, and 5G connectivity for top-tier performance.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1,20,000</span>1,14,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_13.png" alt="product"></div>
+                    <div class="product-piece"><h3>iPhone 12</h3><p>A14 Bionic chip, 4GB RAM, dual-camera system, 256GB storage, Super Retina XDR display, and Ceramic Shield for enhanced durability.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1.05,000</span>1,02,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_14.png" alt="product"></div>
+                    <div class="product-piece"><h3>iPhone SE</h3><p>A15 Bionic chip, 3GB RAM, 128GB storage, single 12MP camera, 5G connectivity, and compact design for powerful performance in a small package.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">90,000</span>87,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_15.png" alt="product"></div>
+                    <div class="product-piece"><h3>iPhone 11</h3><p>A13 Bionic chip, 4GB RAM, dual-camera system, 128GB storage, Liquid Retina HD display, and excellent battery life for all-day use.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">95,000</span>91,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_17.png" alt="product"></div>
+                    <div class="product-piece"><h3>Rolex Submariner</h3><p>Automatic movement, 70-hour power reserve, chronometer-certified, unidirectional rotating bezel, and luminescent markers for underwater readability and precision.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">4,000</span>3,600<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_18.png" alt="product"></div>
+                    <div class="product-piece"><h3>Omega Seamaster</h3><p>Co-Axial escapement, automatic movement, 60-hour power reserve, anti-magnetic, helium escape valve, and water-resistant for professional diving.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">5,500</span>5,200<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_19.png" alt="product"></div>
+                    <div class="product-piece"><h3>Tag Heuer Carrera</h3><p>Calibre Heuer 02 automatic movement, 80-hour power reserve, chronograph function, sapphire crystal, and skeleton dial showcasing intricate mechanics.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">3,500</span>3,200<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_20.png" alt="product"></div>
+                    <div class="product-piece"><h3>Samsung</h3><p>EcoBubble technology, digital inverter motor, AI-powered laundry care, large capacity, and smartphone connectivity for smart laundry management.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">50,000</span>48,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_21.png" alt="product"></div>
+                    <div class="product-piece"><h3>LG</h3><p>Direct Drive motor, TurboWash technology, TrueSteam technology, NFC Tag On, and Smart Diagnosis for efficient and convenient washing.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">70,000</span>66,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_22.png" alt="product"></div>
+                    <div class="product-piece"><h3>Whirlpool</h3><p>6th Sense technology, FreshCare+, Intuitive Controls, ZEN Direct Drive motor, and SteamCare for effective cleaning and fabric care.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">60,000</span>58,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\pngimg.com - tablet_PNG8567.png" alt="product"></div>
+                    <div class="product-piece"><h3>Apple iPad Pro</h3><p>M1 chip, Liquid Retina XDR display, ProMotion technology, Face ID, Apple Pencil compatibility, and versatile iPadOS for productivity.</p><h5>Rating: ⭐⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">1,75,000</span>1,72,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                
+            </tr>
+            <tr class="products-row">
+                <td class="product">
+                    <div class="product-img"><img src="images\product_24.png" alt="product"></div>
+                    <div class="product-piece"><h3>Samsung Galaxy Tab S7+</h3><p>Snapdragon 865+ processor, Super AMOLED display, S Pen included, DeX mode, and One UI for multitasking efficiency.</p><h5>Rating: ⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">80,000</span>66,000<span class="discount">(% off)</span> </h5><button class="cart">Add to Cart</button></div>
+                </td>
+                <td class="product">
+                    <div class="product-img"><img src="images\product_25.png" alt="product"></div>
+                    <div class="product-piece"><h3>Microsoft Surface Pro 8</h3><p>Intel Core i5/i7 processor, PixelSense display, Surface Pen support, Windows 11, and detachable keyboard for laptop-like productivity.</p><h5>Rating: ⭐⭐⭐⭐</h5><h5>Price: Rs.<span class="decor">90,000</span>86,000<span class="discount">(% off)</span></h5><button class="cart">Add to Cart</button></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="bottom" style="margin-top: 150%;">
+        <section class="col">
+            <p>SOCIAL MEDIA HANDLE</p>
+            <ul class="bottom-content">
+                <li><a href="#" class="fa fa-facebook social"></a></li>
+                <li><a href="#" class="fa fa-youtube social"></a></li>
+                <li><a href="#" class="fa fa-instagram social"></a></li>
+            </ul>
+
+        </section>
+        <section class="col">
+            <p>COMPANY</p>
+            <ul class="bottom-content">
+                <li><a href="http://">About Us</a></li>
+                <li><a href="http://">Careers</a></li>
+                <li><a href="http://">Privacy Policy</a></li>
+                <li><a href="http://">Terms of Service</a></li>
+                <li><a href="http://">Contact Us</a></li>
+            </ul>
+        </section>
+        <section class="col">
+            <p>HELP CENTER</p>
+            <ul class="bottom-content">
+                <li><a href="http://">Developer Center</a></li>
+                <li><a href="http://">Contact Tech Support</a></li>
+                <li><a href="http://">Customer Care</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>&copy; By Anupriya . 2024 SRMU</p>
+    </footer>
+    
+</body>
+<script src="products.js"></script>
+</html>
